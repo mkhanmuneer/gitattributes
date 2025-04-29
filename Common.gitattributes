@@ -32,6 +32,22 @@
 *.sql      text
 *.epub     diff=astextplain
 
+# R Source files
+*.Rd    text
+*.Rmd	  text
+*.R  	  text
+*.Rproj text
+
+# R Binary files
+*.Rdx   binary
+*.Rdata binary
+*.RData binary
+*.rda   binary
+*.rdb   binary
+*.rds   binary
+
+*.[Rr]md   linguist-detectable
+
 # Graphics
 *.png      binary
 *.jpg      binary
@@ -41,10 +57,9 @@
 *.tiff     binary
 *.ico      binary
 # SVG treated as text by default.
-*.svg      text
-# If you want to treat it as binary,
-# use the following line instead.
-# *.svg    binary
+# *.svg      text
+# If you want to treat it as binary, use the following line instead.
+*.svg      binary
 *.eps      binary
 
 # Scripts
