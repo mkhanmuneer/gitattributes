@@ -37,6 +37,8 @@
 *.Rmd	  text
 *.R  	  text
 *.Rproj text
+*.Rprofile text
+
 
 # R Binary files
 *.Rdx   binary
